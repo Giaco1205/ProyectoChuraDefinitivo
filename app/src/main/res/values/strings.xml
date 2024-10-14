@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Sistema 1232</string>
+    <string name="phrase">Vine, ví y vencí</string>
+    <string name="author">Julio Cesar</string>
+    <string name="greeting">Hola</string>
+    <string name="begin">Empezar</string>
+    <string name="rights">2024 - Todos los derechos reservados</string>
+    <string name="title_activity_begin">BeginActivity</string>
+    <string name="welcome_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et sapien lobortis orci lacinia lacinia quis vulputate neque. Aenean interdum vestibulum quam, id suscipit nibh interdum in. Quisque sed fermentum leo, et gravida erat. Donec molestie dapibus mi fermentum auctor. Vestibulum accumsan aliquet mi et aliquam. Fusce efficitur luctus ex, vitae lacinia odio consequat ut.</string>
+    <string name="terms">Términos</string>
+    <string name="home">Inicio</string>
+    <string name="title_activity_terms">TermsActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="terms_conditions">Terminos y condiciones</string>
+    <string name="terms_conditions_text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et sapien lobortis orci lacinia lacinia quis vulputate neque. Aenean interdum vestibulum quam, id suscipit nibh interdum in. Quisque sed fermentum leo, et gravida erat. Donec molestie dapibus mi fermentum auctor. Vestibulum accumsan aliquet mi et aliquam. Fusce efficitur luctus ex, vitae lacinia odio consequat ut. Curabitur blandit, lacus a blandit iaculis, metus lectus sodales tortor, ut mattis nibh elit vitae lectus. Curabitur vel leo gravida, pretium dolor ut, tempus urna. Praesent dapibus velit vel quam mattis mattis. Donec nulla sem, tristique laoreet urna quis, viverra rutrum urna. Mauris at dui et dolor porta viverra et sed erat. Nullam vitae luctus velit, non tempor metus. Ut sagittis ullamcorper lectus quis commodo. Fusce lacinia scelerisque vestibulum.
+        \n\n
+        Integer maximus risus sed tortor pellentesque, ut finibus erat tristique. Curabitur sagittis, leo facilisis tincidunt fringilla, libero magna pharetra dolor, sit amet facilisis augue ligula eu nisi. Phasellus lobortis aliquet nisl, eget euismod metus sagittis non. Suspendisse sed aliquam nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas vulputate et dolor eu bibendum. Vivamus aliquet quam leo, ut pretium justo blandit eget. Sed tempus fringilla lectus, eu maximus libero gravida nec. In dictum augue eu nisl egestas, a volutpat urna egestas. Nulla rhoncus nisl justo, in elementum nibh cursus sit amet. Nunc est metus, condimentum quis mauris eget, scelerisque lobortis risus. Proin nec dolor ac nunc finibus consectetur non vitae nunc. Phasellus non justo purus. Aenean euismod, lectus sed euismod tincidunt, ante sem dapibus magna, in pulvinar ligula sem a tellus.
+        \n\n
+        Fusce feugiat, ipsum ut pellentesque gravida, lorem lorem pellentesque urna, vitae vehicula felis orci ut sem. Nunc ac velit aliquet, luctus purus quis, euismod arcu. Curabitur malesuada tellus sapien, eget facilisis ex rhoncus vel. Proin bibendum odio sit amet metus commodo, vel dapibus ipsum placerat. Nunc rutrum turpis quis libero maximus tincidunt. Nunc mollis at nulla eu feugiat. Maecenas vitae orci venenatis, tincidunt ipsum et, tempor mauris. Vestibulum maximus consequat lacus et consectetur. Morbi viverra, diam hendrerit aliquet vehicula, augue risus finibus libero, eu lacinia magna lorem et neque.
+        \n\n
+        Suspendisse porttitor quam vitae magna rhoncus, non cursus tortor tincidunt. Pellentesque sodales massa ut tristique volutpat. Praesent non maximus tortor. Suspendisse feugiat semper rhoncus. Sed vitae ipsum malesuada, aliquet diam at, consectetur est. Aenean quis ullamcorper leo, sit amet finibus arcu. Quisque varius orci ipsum, vel lobortis neque pellentesque sit amet. Morbi congue sapien a justo semper, non vestibulum nulla sollicitudin. Nam blandit nisl ante. Aliquam erat volutpat. Vivamus eu accumsan eros.
+        \n\n
+        Donec eget lectus dictum libero vestibulum vehicula vel quis orci. Fusce eget congue dolor. Donec id laoreet libero. Ut at vehicula nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris gravida nulla odio, vel dignissim lacus molestie a. Nullam tristique, purus ut pulvinar dictum, neque ante suscipit orci, a bibendum ligula eros sit amet nibh. Nunc nunc lectus, vulputate vehicula nulla vel, aliquet placerat quam. Ut feugiat sem dolor, eget aliquam massa mattis eget. Aliquam id ipsum blandit, lobortis elit quis, interdum sem. Donec consequat tempus tellus, non tincidunt ligula. Suspendisse vehicula magna quam, at sodales magna auctor at. Phasellus commodo consectetur ligula ultricies placerat. Curabitur felis sapien, accumsan a ultrices ac, pulvinar in est. Nam ipsum nisl, ornare non dictum quis, porttitor in ex.
+        \n\n
+        Duis vel facilisis erat, eu luctus leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent eu gravida justo. Mauris in nulla aliquet, facilisis nisi in, sollicitudin erat. Mauris eget faucibus lacus. Donec vel finibus velit. Duis sed imperdiet augue, at pulvinar lacus. Maecenas purus dui, ornare a enim consectetur, scelerisque vestibulum sem. Proin consectetur dolor nisi, sed dignissim eros auctor at. Aenean eget dolor fringilla odio placerat pellentesque et vitae orci. Quisque fringilla ligula quam, quis scelerisque nulla vehicula sit amet. Sed id turpis sem.
+    </string>
+    <string name="close">Cerrar</string>
+    <string name="begin_image_descripcion">Pareja con un hijo, realizando compras en el supermercado</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_suppliers">SuppliersActivity</string>
+    <string name="title_activity_employees">EmployeesActivity</string>
+    <string name="title_activity_store">StoreActivity</string>
+    <string name="title_activity_products">ProductsActivity</string>
+    <string name="title_activity_product_details">ProductDetailsActivity</string>
+    <string name="title_activity_directors">DirectorsActivity</string>
+    <string name="title_activity_directors_insert">DirectorsInsertActivity</string>
+    <string name="title_activity_directors_update">DirectorsUpdateActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+</resources>
