@@ -14,12 +14,10 @@ import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.SegmentedButtonDefaults.Icon
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults.topAppBarColors
@@ -35,6 +33,7 @@ import coil.compose.AsyncImage
 import com.android.volley.Request
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
+import com.example.sistema1232.utils.Total
 import org.json.JSONArray
 
 class EmployeesActivity : ComponentActivity() {
@@ -45,7 +44,7 @@ class EmployeesActivity : ComponentActivity() {
     }
     private fun readService(){
         val queue = Volley.newRequestQueue(this)
-        val url = "https://servicios.campus.pe/empleados.php"
+        val url = Total.BASE_URL + "empleados.php"
 
         val stringRequest = StringRequest(
             Request.Method.GET, url,
@@ -126,7 +125,7 @@ class EmployeesActivity : ComponentActivity() {
 @Composable
 fun DrawEmployee(employee: java.util.HashMap<String, String>, screenHeightPx: Float) {
     AsyncImage(
-        model = "https://servicios.campus.pe/fotos/" + employee["foto"].toString(),
+        model = Total.BASE_URL + "fotos/" + employee["foto"].toString(),
         contentDescription = "null",
         modifier = Modifier.fillMaxSize(),
         contentScale = ContentScale.Crop

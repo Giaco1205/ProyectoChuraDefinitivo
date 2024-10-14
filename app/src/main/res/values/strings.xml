@@ -37,4 +37,5 @@
     <string name="title_activity_directors_insert">DirectorsInsertActivity</string>
     <string name="title_activity_directors_update">DirectorsUpdateActivity</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
 </resources>

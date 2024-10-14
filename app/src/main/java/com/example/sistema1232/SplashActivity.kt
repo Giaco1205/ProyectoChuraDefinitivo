@@ -22,8 +22,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.lifecycleScope
+import com.example.sistema1232.content.ProfileActivity
 import com.example.sistema1232.ui.theme.Sistema1232Theme
+import com.example.sistema1232.utils.UserStore
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
 
 class SplashActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,7 +52,16 @@ class SplashActivity : ComponentActivity() {
                 LaunchedEffect(key1 = true) {
                     startAnimation = true
                     delay(4000)
-                    startActivity(Intent(this@SplashActivity, MainActivity::class.java))
+                    lifecycleScope.launch {
+                        val userStore = UserStore(this@SplashActivity)
+                        val user = userStore.getUser.first()
+                        if (user != "") {
+                            startActivity(Intent(this@SplashActivity, ProfileActivity::class.java))
+                        }
+                        else{
+                            startActivity(Intent(this@SplashActivity, MainActivity::class.java))
+                        }
+                    }
                 }
                 Box (modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.Center

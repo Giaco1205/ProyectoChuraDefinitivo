@@ -4,10 +4,8 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -16,7 +14,6 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material3.Card
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -34,6 +31,7 @@ import com.android.volley.Request
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.example.sistema1232.content.ui.theme.Sistema1232Theme
+import com.example.sistema1232.utils.Total
 import org.json.JSONArray
 
 class SuppliersActivity : ComponentActivity() {
@@ -44,7 +42,7 @@ class SuppliersActivity : ComponentActivity() {
     }
     private fun readService(){
         val queue = Volley.newRequestQueue(this)
-        val url = "https://servicios.campus.pe/proveedores.php"
+        val url = Total.BASE_URL + "proveedores.php"
 
         val stringRequest = StringRequest(
             Request.Method.GET, url,

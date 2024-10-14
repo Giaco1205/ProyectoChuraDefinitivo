@@ -41,6 +41,7 @@ import com.android.volley.Request
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.example.sistema1232.content.ui.theme.Sistema1232Theme
+import com.example.sistema1232.utils.Total
 import org.json.JSONArray
 
 class StoreActivity : ComponentActivity() {
@@ -51,7 +52,7 @@ class StoreActivity : ComponentActivity() {
     }
     private fun readService(){
         val queue = Volley.newRequestQueue(this)
-        val url = "https://servicios.campus.pe/categorias.php"
+        val url = Total.BASE_URL + "categorias.php"
 
         val stringRequest = StringRequest(
             Request.Method.GET, url,
@@ -153,7 +154,7 @@ fun DrawCategoryItem(category: HashMap<String, String>) {
         modifier = Modifier.fillMaxSize()
     ){
         AsyncImage(
-            model = "https://servicios.campus.pe/" + category["foto"],
+            model = Total.BASE_URL + category["foto"],
             contentDescription = "Imagen de la categoría",
             modifier = Modifier.height(190.dp).fillMaxWidth(),
             contentScale = ContentScale.Crop
