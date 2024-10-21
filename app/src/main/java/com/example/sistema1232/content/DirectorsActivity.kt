@@ -74,6 +74,7 @@ class DirectorsActivity : ComponentActivity() {
             hashmap["peliculas"] = peliculas
             arrayList.add(hashmap)
         }
+        arrayList.sortBy { it["id"]?.toIntOrNull() }
         drawDirectors(arrayList)
     }
 
